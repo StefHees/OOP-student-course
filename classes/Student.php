@@ -17,6 +17,18 @@ class Student
 
     }
 
+    public function addStudent($name, $age, $class)
+    {
+        $insert = [
+            'name' => $name,
+            'age' => $age,
+            'class' => $class
+        ];
+        $pdo = Connection::connect();
+        $query = new QueryBuilder($pdo);
+        $query->insert('students', $insert);
+    }
+
     public function getInfo(){
         echo $this->age;
     }
