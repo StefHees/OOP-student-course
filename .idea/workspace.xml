@@ -2,26 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="133d42bd-57fc-44b8-913b-a160303e9d7a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/CoursesController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/StudentController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/Course.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/Request.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/Router.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/addCourse.view.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/addStudent.view.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/courseDetail.view.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/enrollStudent.view.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/partials/footer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/partials/head.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/students.view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/Connection.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/Connection.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/Course.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/QueryBuilder.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/QueryBuilder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/Student.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/Student.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -283,11 +264,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40261000" />
+    <option name="totallyTimeSpent" value="41126000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32965517" />
@@ -295,7 +275,7 @@
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32965517" />
