@@ -34,6 +34,15 @@ class StudentController
 
     public function storeEnroll(){
         $query = new QueryBuilder(Connection::connect());
+        $courses = $query->selectWhere('courses', 'Course', 'id='.$_POST['course']);
+        $course = $courses[0];
+        if (strtotime($course->getDate()) < strtotime("now")){
+            return $this->enroll();
+        }
+        if (count($course->getEnrolled()) == $course->getMax() ){
+            return $this->enroll();
+        }
+
         $insert = [
             'student_id' => $_POST['student'],
             'course_id' => $_POST['course']

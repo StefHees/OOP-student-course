@@ -79,15 +79,11 @@ class Course
     public function getEnrolled(){
         $query = new QueryBuilder(Connection::connect());
         $studentids = $query->selectQuery("SELECT * FROM enrolled WHERE course_id=".$this->id);
-        foreach($studentids as $studentid){
-            $students[] = $query->selectWhere('students', 'Student', 'id='.$studentid['id']);
+        $students = [];
+        foreach($studentids as $studentid) {
+            $students[] = $query->selectWhere('students', 'Student', 'id='.$studentid['student_id']);
         }
-        if (isset($students)) {
-            return $students;
-        }
-        else {
-            return array();
-        }
+        return $students;
 
     }
 }

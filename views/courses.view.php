@@ -3,9 +3,7 @@ include_once('partials/head.php');
 ?>
 
     <!-- Page Heading -->
-    <h1 class="my-4">Courses
-        <small>Secondary Text</small>
-    </h1>
+    <h1 class="my-4">Courses</h1>
 
     <hr>
 
